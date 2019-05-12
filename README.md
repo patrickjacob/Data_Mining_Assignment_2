@@ -33,8 +33,7 @@ Build a similar table of runs to the one in the previous question.
 
 ### PART 3: DATA MINING 
 The relevant files are: [bank-full.csv](https://github.com/patrickjacob/Data_Mining_Assignment_2/blob/master/data_set/bank-full.csv)
-
-[bank-names.txt](https://github.com/patrickjacob/Data_Mining_Assignment_2/blob/master/data_set/bank-names.txt)
+& [bank-names.txt](https://github.com/patrickjacob/Data_Mining_Assignment_2/blob/master/data_set/bank-names.txt)
 
 The bank data is related to direct marketing campaigns of a Portuguese banking institution.
 The marketing campaigns were based on phone calls. Often, more than one contact to the same client was required, in order to access if the product (bank term deposit) would be (or not) subscribed.
