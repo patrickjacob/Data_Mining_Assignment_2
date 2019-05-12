@@ -1,0 +1,97 @@
+@relation cleveland-14-heart-disease-weka.filters.unsupervised.attribute.Normalize-S1.0-T0.0
+
+@attribute sex {female,male} 
+@attribute cp {typ_angina,asympt,non_anginal,atyp_angina}
+@attribute trestbps numeric
+@attribute chol numeric
+@attribute fbs {t,f}
+@attribute restecg {left_vent_hyper,normal,st_t_wave_abnormality}
+@attribute thalach numeric
+@attribute exang {no,yes}
+@attribute oldpeak numeric
+@attribute slope {up,flat,down}
+@attribute ca numeric
+@attribute thal {fixed_defect,normal,reversable_defect}
+@attribute num {<50,>50_1,>50_2,>50_3,>50_4}
+@attribute age numeric
+
+@data
+male atyp_angina 0.339623 0.212329 f left_vent_hyper 0.89313 no 0 up 0 normal <50 0.3125
+male non_anginal 0.245283 0.141553 f normal 0.519084 no 0.322581 flat 1 reversable_defect >50_1 0.416667
+male non_anginal 0.528302 0.09589 f normal 0.78626 no 0.258065 up 0 normal <50 0.583333
+male atyp_angina 0.132075 0.417808 f normal 0.648855 no 0 up 0 reversable_defect <50 0.520833
+male asympt 0.396226 0.431507 f normal 0.412214 yes 0.290323 flat 0 fixed_defect >50_1 0.270833
+female non_anginal 0.226415 0.26484 f normal 0.59542 no 0.048387 flat 0.333333 normal <50 0.3125
+male typ_angina 0.226415 0.136986 f left_vent_hyper 0.908397 no 0 flat 0 fixed_defect <50 0.479167
+male asympt 0.415094 0.33105 f left_vent_hyper 0.847328 no 0 up 0 normal <50 0.625
+male non_anginal 0.339623 0.200913 f left_vent_hyper 0.740458 no 0.322581 flat 0 normal <50 0.25
+male non_anginal 0.528302 0 t normal 0.778626 no 0.032258 up 0.333333 reversable_defect <50 0.583333
+female typ_angina 0.528302 0.358447 t left_vent_hyper 0.694656 no 0.16129 up 0 normal <50 0.604167
+male atyp_angina 0.245283 0.360731 f left_vent_hyper 0.679389 no 0.290323 flat 0 normal >50_1 0.604167
+male asympt 0.45283 0.417808 f left_vent_hyper 0.580153 yes 0 flat 1 reversable_defect >50_1 0.333333
+male asympt 0.433962 0.116438 f normal 0.694656 yes 0 up 0.333333 reversable_defect >50_1 0.625
+male asympt 0.245283 0.280822 f left_vent_hyper 0.557252 no 0.129032 up 0 reversable_defect >50_1 0.354167
+female atyp_angina 0.169811 0.077626 f normal 0.51145 no 0 flat 0 normal <50 0.333333
+female asympt 0.433962 0.611872 f left_vent_hyper 0.656489 no 0.193548 flat 0 normal <50 0.6875
+male typ_angina 0.377358 0.178082 f normal 0.694656 no 0.129032 up 0.666667 normal >50_1 0.625
+female non_anginal 0.54717 0.344749 f normal 0.770992 no 0 up 0.333333 normal <50 0.791667
+male asympt 0.292453 0.196347 f normal 0.740458 no 0.16129 up 0.666667 reversable_defect >50_1 0.479167
+female asympt 0.132075 0.326484 f normal 0.748092 yes 0.290323 flat 0.666667 normal >50_1 0.708333
+male asympt 0.292453 0.280822 t left_vent_hyper 0.557252 yes 0.193548 flat 0.333333 normal >50_1 0.5625
+male non_anginal 0.169811 0.237443 f left_vent_hyper 0.717557 no 0.403226 flat 0.333333 reversable_defect >50_1 0.604167
+female non_anginal 0.245283 0.488584 f normal 0.770992 no 0 up 0 normal <50 0.604167
+female asympt 0.339623 0.326484 f normal 0.70229 no 0 up 0 normal <50 0.416667
+male asympt 0.339623 0.011416 f normal 0.335878 yes 0.193548 flat 0.333333 reversable_defect >50_1 0.583333
+female non_anginal 0.433962 0.664384 t left_vent_hyper 0.656489 no 0.129032 up 0.333333 normal <50 0.75
+male atyp_angina 0.339623 0.216895 f left_vent_hyper 0.70229 no 0 up 0 reversable_defect <50 0.5625
+female typ_angina 0.528302 0.358447 t left_vent_hyper 0.694656 no 0.16129 up 0 normal <50 0.604167
+female non_anginal 0.245283 0.118721 t normal 0.19084 no 0 up 0 normal <50 0.645833
+male non_anginal 0.226415 0.344749 f normal 0.610687 no 0.16129 up 0.333333 reversable_defect <50 0.8125
+male asympt 0.622642 0.372146 f left_vent_hyper 0.564885 yes 0.129032 flat 0.333333 reversable_defect >50_1 0.541667
+male non_anginal 0.103774 0.260274 f left_vent_hyper 0.633588 yes 0.096774 flat 0 reversable_defect <50 0.604167
+female non_anginal 0.169811 0.324201 f left_vent_hyper 0.770992 yes 0 up 0 normal <50 0.25
+female asympt 0.245283 0.520548 f normal 0.70229 yes 0.096774 up 0 normal <50 0.583333
+male asympt 0.264151 0.219178 f left_vent_hyper 0.877863 no 0 up 0 normal <50 0.395833
+male atyp_angina 0.339623 0.178082 f left_vent_hyper 1 no 0 up 0 normal <50 0
+female non_anginal 0 0.166667 f normal 0.824427 no 0 up 0 normal <50 0.208333
+male typ_angina 0.509434 0.269406 f left_vent_hyper 0.816794 no 0.129032 up 0.666667 normal <50 0.270833
+male non_anginal 0.433962 0.244292 f normal 0.70229 no 0.096774 flat 0.333333 reversable_defect >50_1 0.4375
+female asympt 0.283019 0.1621 f normal 0.496183 yes 0 flat 0 normal >50_1 0.708333
+male atyp_angina 0.245283 0.454338 f normal 0.770992 no 0.032258 up 0 normal <50 0.479167
+female non_anginal 0.245283 0.385845 f left_vent_hyper 0.656489 no 0.096774 up 0 normal <50 0.458333
+male atyp_angina 0.386792 0.175799 f normal 0.465649 no 0 flat 0 fixed_defect <50 0.25
+female asympt 0.528302 0.30137 f left_vent_hyper 0.656489 no 0.419355 flat 0.666667 reversable_defect >50_1 0.645833
+male asympt 0.245283 0.305936 f normal 0.526718 yes 0.580645 flat 0.333333 reversable_defect >50_1 0.666667
+male asympt 0.150943 0.171233 f normal 0.419847 yes 0.241935 flat 0 fixed_defect <50 0.583333
+female atyp_angina 0.622642 0.401826 f normal 0.694656 no 0.064516 up 0.666667 normal <50 0.875
+male asympt 0.716981 0.456621 f left_vent_hyper 0.526718 yes 0.548387 down 0 reversable_defect >50_1 0.625
+male non_anginal 0.339623 0.289954 f normal 0.824427 no 0 up 0 normal <50 0.375
+female asympt 0.528302 0.641553 f left_vent_hyper 0.633588 no 0.645161 flat 1 reversable_defect >50_1 0.708333
+male non_anginal 0 0.230594 f normal 0.633588 yes 0 up 0.333333 reversable_defect <50 0.458333
+female asympt 0.113208 0.221461 f normal 0.541985 no 0.048387 up 0.666667 normal <50 0.791667
+male atyp_angina 0.245283 0.454338 f normal 0.770992 no 0.032258 up 0 normal <50 0.479167
+female asympt 0.811321 0.454338 f normal 0.633588 yes 0 up 0 normal <50 0.729167
+male asympt 0.481132 0.109589 f normal 0.412214 yes 0.419355 down 0 reversable_defect >50_1 0.854167
+female atyp_angina 0.339623 0.178082 f left_vent_hyper 0.770992 no 0.225806 up 0 normal <50 0.25
+male non_anginal 0.339623 0.431507 f normal 0.694656 no 0.306452 up 0.333333 normal <50 0.291667
+female asympt 0.283019 0.1621 f normal 0.496183 yes 0 flat 0 normal >50_1 0.708333
+male atyp_angina 0.433962 0.216895 f normal 0.709924 yes 0 up 0 normal <50 0.625
+female asympt 0.283019 0.189498 f normal 0.70229 no 0 up 0 normal <50 0.6875
+male atyp_angina 0.283019 0.308219 f normal 0.534351 no 0.048387 up 0 reversable_defect >50_1 0.583333
+male asympt 0.528302 0.328767 f left_vent_hyper 0.305344 yes 0.129032 up 0 reversable_defect >50_1 0.604167
+male typ_angina 0.150943 0.194064 f left_vent_hyper 0.557252 yes 0.290323 flat 0 normal <50 0.729167
+male non_anginal 0.339623 0.296804 t left_vent_hyper 0.541985 yes 0.096774 flat 0.333333 fixed_defect >50_1 0.5625
+male asympt 0.481132 0.196347 f left_vent_hyper 0.465649 no 0.322581 flat 0.666667 fixed_defect >50_1 0.729167
+male asympt 0.056604 0.246575 f normal 0.648855 no 0.016129 up 0.333333 reversable_defect >50_1 0.604167
+female asympt 0.528302 0.641553 f left_vent_hyper 0.633588 no 0.645161 flat 1 reversable_defect >50_1 0.708333
+male non_anginal 0.283019 0.294521 t normal 0.793893 no 0 up 0.666667 normal <50 0.395833
+male typ_angina 0.150943 0.315068 f normal 0.465649 no 0.193548 flat 0 reversable_defect >50_1 0.333333
+male non_anginal 0.226415 0.052511 f left_vent_hyper 0.419847 no 0.129032 up 1 normal >50_1 0.416667
+male asympt 0.283019 0.319635 f left_vent_hyper 0.290076 yes 0.354839 flat 0.333333 reversable_defect >50_1 0.520833
+male atyp_angina 0.264151 0.150685 f normal 0.78626 no 0 up 0 normal <50 0.125
+male asympt 0.669811 0.372146 t left_vent_hyper 0.40458 no 0.16129 flat 1 reversable_defect >50_1 0.583333
+male asympt 0.358491 0.13242 f left_vent_hyper 0.259542 yes 0.33871 flat 0.333333 fixed_defect >50_1 0.5625
+male typ_angina 0.622642 0.335616 f left_vent_hyper 0.412214 no 0 up 0 normal >50_1 0.625
+male non_anginal 0.433962 0.445205 f left_vent_hyper 0.847328 no 0 up 0 normal <50 0.208333
+male asympt 0.320755 0.294521 f normal 0.687023 yes 0 up 0.333333 reversable_defect >50_1 0.479167
+male typ_angina 0.622642 0.335616 f left_vent_hyper 0.412214 no 0 up 0 normal >50_1 0.625
