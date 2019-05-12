@@ -1,7 +1,7 @@
 # Data Mining Assignment 2
 Second Data Mining Assignment including Neural Networks and the analysis of a Portuguese bank dataset
 
-[Here the final Report](https://github.com/patrickjacob/Data_Mining_Assignment_2/blob/master/Data_Mining-Assignment2.pdf)
+[Here the final report](https://github.com/patrickjacob/Data_Mining_Assignment_2/blob/master/Data_Mining-Assignment2.pdf)
 
 ### PART 1: CLASSIFICATION WITH NEURAL NETWORKS 
 This part involves the following file:
